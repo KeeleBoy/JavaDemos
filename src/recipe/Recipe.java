@@ -14,9 +14,9 @@ public class Recipe {
 
 	// private fields
 
-	protected String title;
-	protected List<Ingredient> ingredients​;
-	protected String instructions;
+	private String title;
+	private List<Ingredient> ingredients​;
+	private String instructions;
 
 	// no argument constructor
 
@@ -32,7 +32,7 @@ public class Recipe {
 		// you are initializing variables here
 		// DON'T FORGET ON A TEST
 		this.ingredients​ = new ArrayList<>();
-		this.instructions = "";
+		this.instructions = "N/A";
 	}
 
 	// getters and setters
